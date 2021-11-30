@@ -13,6 +13,17 @@ body {
     height: 100vh;
 }
 
+#ran-off {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    position:absolute;
+    display:flex;
+    justify-content: space-around;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .question {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:50px;
@@ -45,7 +56,7 @@ a {
 .line {
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 52.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -53,7 +64,7 @@ a {
 .pics_line {
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 52.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 0;
